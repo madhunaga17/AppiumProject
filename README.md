@@ -11,21 +11,21 @@ Appium Frame work and testing on Komoot app
 	* Selenium Version 3.11.0
 	* Java version 1.8.0_161
 	* Appium version 1.7.2
-		To install appium
-		* Open command prompt
-		* Type: npm install -g appium
-		* Click enter
-		* To check version, in command promt type: appium -v
+		*To install appium
+			* Open command prompt
+			* Type: npm install -g appium
+			* Click enter
+			* To check version, in command promt type: appium -v
 	* Eclipse IDE (I have used: Luna Service Release 2 (4.4.2))
 	* To identify elements used uiautomatorviewer.bat
 
-3. Project Dependencies
+3. Project Setup
     * Download completed project and import in eclipse IDE
 	* Specify the .APK path in BasePage class in capabilities.setCapability(MobileCapabilityType.APP,"Specify .apk path")
 	* Run Appium before executing the scripts
-		To run appium
-		* Open command prompt or appium
-		* Type: -appium -a 127.0.0.1 -p 4723
+		* To run appium
+			* Open command prompt or appium
+			* Type: -appium -a 127.0.0.1 -p 4723
 	* Connect mobile device(android)
 		* Install Komoot app
 		* change the below mentioned fields as per your device and virtual device
